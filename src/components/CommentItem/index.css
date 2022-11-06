@@ -1,0 +1,90 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.listitem {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.imagecont {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+}
+.bimage {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.textcont {
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  display: flex;
+  flex-direction: row;
+}
+.datepara {
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 3px;
+}
+.cpara {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.cheading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.likecont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.likecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.likeimg {
+  height: 20px;
+  width: 20px;
+}
+
+.cbtn {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: 0px;
+}
